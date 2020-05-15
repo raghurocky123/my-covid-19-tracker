@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --port 2404 --hot --host 0.0.0.0",
-    "build": "webpack --config webpack.config.js"
+    "build": "rm -rf dist && parcel build src/index.html",
+    "_comment": "This build command is used for yarn build for aws code pipeline"
   },
   "author": "",
   "license": "ISC",
