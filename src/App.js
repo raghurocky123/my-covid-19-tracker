@@ -4,7 +4,7 @@ import Chart from "./components/Chart/Chart";
 import CountryPicker from "./components/CountryPicker/CountryPicker";
 import styles from "./App.module.css";
 import {fetchData, fetchDailyData} from "./api";
-import coronaImage from "./images/coronaImage.png"; 
+import coronaImage from "./images/coronaimage.png"; 
 
 class App extends Component {
     constructor(props){
