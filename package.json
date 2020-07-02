@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --port 2404 --hot --host 0.0.0.0",
     "build": "webpack --config webpack.config.js",
-    "_comment": "This build command is used for yarn build for aws code pipeline"
+    "_comment": "This build command is used for npm build for aws code pipeline. Edited on July 2nd 2020"
   },
   "author": "",
   "license": "ISC",
